@@ -1,4 +1,3 @@
 # Portfolio GIT
 
-readme
-new portfolio files has been updated
+portfolio file upload from Local source to github
