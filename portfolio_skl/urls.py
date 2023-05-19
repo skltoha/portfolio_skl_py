@@ -24,6 +24,7 @@ urlpatterns = [
     path('', v.index, name='home'),
     path('service/', v.services, name='service'),
     path('work/', v.work, name='work'),
+    path('worksingle/', v.worksingle, name='worksingle'),
     path('blog/', v.blog, name='blog'),
     path('about/', v.about, name='about'),
     path('contact/', v.contact, name='contact'),

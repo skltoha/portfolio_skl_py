@@ -14,6 +14,10 @@ def work(request):
     return render(request, 'work.html', {'request': request})
 
 
+def worksingle(request):
+    return render(request, 'work-single.html', {'request': request})
+
+
 def blog(request):
     return render(request, 'blog.html', {'request': request})
 
