@@ -1,7 +1,4 @@
-{% extends 'base.html' %}
-{% block title %}Service{% endblock %}
-{% block template %}
-{% load static %}
+{% extends 'base.html' %} {% block title %}Service{% endblock %} {% block template %} {% load static %}
 <div id="colorlib-page">
   <header>
     <div class="container">
@@ -78,7 +75,7 @@
                 </div>
               </div>
             </div>
-            <div class="one-forth services-img" style="background-image: url({% static 'images/services-img.jpg' %})"></div>
+            <div class="one-forth services-img" style="background-image: url('/static/images/services-img.jpg'')"></div>
           </div>
         </div>
       </div>
@@ -176,9 +173,7 @@
             <div class="col-md-12 text-center">
               <div class="testimony">
                 <blockquote>
-                  <p>
-                    "A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                  </p>
+                  <p>"A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
                   <span>" &mdash; George Brooks</span>
                 </blockquote>
               </div>
@@ -189,9 +184,9 @@
               <div class="testimony">
                 <blockquote>
                   <p>
-                    "Even the all-powerful Pointing has no control about the blind texts it is an almost
-                    unorthographic life One day however a small line of blind text by the name of Lorem Ipsum
-                    decided to leave for the far World of Grammar.
+                    "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
+                    life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the
+                    far World of Grammar.
                   </p>
                   <span>" &mdash; Daniel Foster</span>
                 </blockquote>
@@ -203,8 +198,8 @@
               <div class="testimony">
                 <blockquote>
                   <p>
-                    "When she reached the first hills of the Italic Mountains, she had a last view back on the
-                    skyline of her hometown Bookmarksgrove
+                    "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline
+                    of her hometown Bookmarksgrove
                   </p>
                   <span>" &mdash; Liam Jenkins</span>
                 </blockquote>
@@ -238,21 +233,21 @@
           <div class="col-md-4 col-pb-sm">
             <h2>Latest Blog</h2>
             <div class="f-entry">
-              <a href="#" class="featured-img" style="background-image: url({% static 'images/img-1.jpg' %})"></a>
+              <a href="#" class="featured-img" style="background-image: url('/static/images/img-1.jpg'')"></a>
               <div class="desc">
                 <span>February 15, 2018</span>
                 <h3><a href="#">Art Gallery in Japan</a></h3>
               </div>
             </div>
             <div class="f-entry">
-              <a href="#" class="featured-img" style="background-image: url({% static 'images/img-2.jpg' %})"></a>
+              <a href="#" class="featured-img" style="background-image: url('/static/images/img-2.jpg'')"></a>
               <div class="desc">
                 <span>February 9, 2018</span>
                 <h3><a href="#">A Japanese Constellation</a></h3>
               </div>
             </div>
             <div class="f-entry">
-              <a href="#" class="featured-img" style="background-image: url({% static 'images/img-3.jpg' %})"></a>
+              <a href="#" class="featured-img" style="background-image: url('/static/images/img-3.jpg'')"></a>
               <div class="desc">
                 <span>February 15, 2018</span>
                 <h3><a href="#">Road Trip</a></h3>
